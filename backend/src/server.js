@@ -7,7 +7,7 @@ const app = express();
 const __dirname=path.resolve(); // __dirname is an absolute path. and path.resolve() will give us the absolute path of the current directory
 
 app.get("/api/health", (req, res) => {
-  res.status(200).json({message:"success"})
+  res.status(200).json({message:"success"});
 });
 
 //make our app ready for deployement
